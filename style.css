@@ -1,0 +1,139 @@
+*{
+    *{
+        margin: 0;
+        padding: 0;
+     }
+}
+
+
+body{
+    background-image:url(185866.jpg);
+   
+}
+.container{
+    background-color: red;
+    width: 100%;
+    margin: 40px auto;
+    flex: 1 1 150px;
+    border: radius 20px ;    
+}
+.col{
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 480%;
+    color:transparent;
+    -webkit-text-stroke: 1px #efefef;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-animation: back 20s linear infinite;
+   
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+h2{
+    color: transparent; 
+    -webkit-text-stroke: 1px #efefef;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-animation: back 20s linear infinite;
+    text-align: center;
+    
+    
+}
+.vid{
+    width: 80%;
+    padding-left: 80px;
+}
+
+.play-btn{
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    
+}
+
+.video-player{
+        width: 80%;
+        position: absolute;
+        left: 50%;
+        top: 110%;
+        transform: translate(-50%, -50%);
+        display: none;
+        opacity: 50%;
+       
+    }
+.close-btn{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        opacity: 50%;
+        cursor: pointer;
+}
+.feature-img{ 
+    width: 100%; 
+    color: red;
+    position: relative; 
+    border-radius: 6px; overflow: hidden; 
+    
+    margin: 50px 0; 
+    align-items: center; 
+    border-radius: 6px; 
+    overflow: hidden; 
+     
+    -webkit-border-radius: 6px; 
+    -moz-border-radius: 6px; 
+    -ms-border-radius: 6px; 
+    -o-border-radius: 6px;
+}
+.feature-img p{
+        color: #707070;
+    }
+.small-img-row{
+        display: flex;
+        background:transparent;
+        margin: 20px 0;
+        align-items: center;
+        border-radius: 6px;
+        overflow: hidden;
+        width: 110%;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+}
+.small-img{
+        position: relative;
+}
+.small-img img{
+        width: 150px;
+}
+
+.im{
+    padding-right: 20px;
+}
+
+
+
+p.para1{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #efefef;
+    text-align: center;
+}
